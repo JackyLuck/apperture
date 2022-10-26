@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('..fonts/poppins-regular-webfont.eot');
+    src: url('..fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('..fonts/poppins-regular-webfont.woff2') format('woff2'),
+    url('..fonts/poppins-regular-webfont.woff') format('woff'),
+    url('..fonts/poppins-regular-webfont.ttf') format('truetype'),
+    url('..fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+}
+.head_wrapper{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 24px 20px 24px 32px
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+.li_flex{
+    margin-left: 32px;
+}
+header ul .li_flex:second-of-type li{
+    margin-left: 56px;
+}
+header ul a{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px; text-decoration: none;color:white;
+}
+.head_button{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px; text-decoration: none;color:black;background: #FFFFFF;padding: 9px 20px 13px;
+    border-radius: 14px;letter-spacing: 0.4px;
+}
+main section{
+    background-image: url('images/bg_m.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+main section div{
+    max-width: 580px;
+    text-align: center;
+    color: #FFFFFF
+}
