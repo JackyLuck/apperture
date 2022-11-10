@@ -64,6 +64,7 @@ header ul a{
     padding-bottom: 71px;
     box-sizing: border-box;
     position: relative;
+    background-size: cover;
 }
 .fixid_location{
     position: absolute;
