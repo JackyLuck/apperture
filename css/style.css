@@ -310,14 +310,6 @@ header ul a{
     text-align: center;
     color: #C0C0C0;
 }
-.div2{
-    background-image: url("/images/Rectangle.png");
-    background-repeat: no-repeat;
-    max-height: 42px;
-    display: inline-block;
-    width: 152px;
-    margin-top: 22px    ;
-}
 
 .in_touch p{
     font-family: 'Poppins';
@@ -327,6 +319,15 @@ header ul a{
     line-height: 20px;
     text-align: center;
     letter-spacing: 0.4px;
-    color: white;
+    color: #000000;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 152px;
+    height: 42px;
+    background-color: white;
+    border-radius: 20px;
 }
 
