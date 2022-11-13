@@ -1,0 +1,16 @@
+@media screen and (max-width: 360px) {
+    
+}
+@media screen and (max-width: 428px) {
+
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        display: none;
+    }
+}
+@media screen and (max-width: 850px) {
+    .li_flex{
+        margin-left: 7px;
+    }
+}
