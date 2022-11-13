@@ -222,11 +222,9 @@ header ul a{
     color: #C0C0C0;
 }
 .pclients{
-    min-height: 500px;
     background-color: black;
-    display: flex;
-    flex-direction: column;
-}
+    padding: 113px 0 140px 0;
+    }
 .pclients div h4{
     font-family: 'poppinsregular';
     font-style: normal;
@@ -235,8 +233,7 @@ header ul a{
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
-    padding-bottom: 15px;
-    margin-top: 113px;
+    margin-bottom: 15px;
 }
 .pclients div h5{
     font-family: 'poppinsregular';
@@ -246,12 +243,13 @@ header ul a{
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
+    margin-bottom: 82px
 }
 .clients{
     display: flex;
     margin: auto;
     justify-content: space-between;
-    min-width: 1076px;
+    max-width: 1200px;
 }
 .star{
     background-image: url("../images/star.jpg");
@@ -285,17 +283,13 @@ header ul a{
     color: #C0C0C0;
 }
 .in_touch{
-    min-height: 414px;
     background-color: black;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-content: center;
+    padding: 113px 0 108px 0;
 }
 .div1{
     max-width: 584px;
-    margin-top: 113px;
-    text-align: center
+    margin: auto;
+    text-align: center;
 }
 .in_touch h4{
     font-family: 'Poppins';
@@ -315,6 +309,7 @@ header ul a{
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
+    margin-bottom: 22px;
 }
 .g_touch{
     font-family: 'poppinsregular';
@@ -328,8 +323,6 @@ header ul a{
     padding: 5px 10px 5px 5px;
     border-radius: 14px;
     letter-spacing: 0.4px;
-    width: 152px;
-    height: 42px;
     display: inline-flex;
     align-items: center;
     margin-top: 7px;
@@ -342,5 +335,6 @@ header ul a{
     width: 32px;
     height: 32px;
     border-radius: 15px;
+    margin-right: 6px;
 }
 
