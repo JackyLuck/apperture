@@ -72,6 +72,10 @@ header ul a{
     box-sizing: border-box;
     position: relative;
 }
+.banner_wrap{
+    max-width: 580px;
+    text-align: center;
+}
 .fixid_location{
     position: absolute;
     right: 40px;
@@ -122,10 +126,6 @@ header ul a{
     width: 10px;
     height: 16px;
     margin-right: 6px;
-}
-.banner_wrap{
-    max-width: 580px;
-    text-align: center;
 }
 .banner h2{
     font-family: 'poppinsregular';

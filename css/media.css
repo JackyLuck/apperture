@@ -1,16 +1,156 @@
 @media screen and (max-width: 360px) {
-    
+    .banner_wrap{
+        margin: 0 15px 10px;
+    }
+    .sunset{
+        padding-left: 20px;
+    }
+    .sunset .sub_container {
+        margin-right: 10px;
+    }
+    .monstera{
+        padding-left: 20px;
+    }
+    .clients{
+        flex-direction: column;
+        align-items: center;
+    }
+    .clients a{
+        margin-top: 20px;
+    }
+    .pclients div h5{
+        margin-bottom: 45px;
+    }
+    .star{
+        padding-left: 20px;
+    }
 }
 @media screen and (max-width: 428px) {
+    .banner_wrap{
+        margin: 0 10px 20px;
+    }
 
+    .sunset{
+        padding-left: 20px;
+    }
+    .monstera{
+        padding-left: 20px;
+        justify-content: left;
+    }
+    .clients{
+        flex-direction: column;
+        align-items: center;
+    }
+    .clients a{
+        margin-top: 20px;
+    }
+    .pclients div h5{
+        margin-bottom: 45px;
+    }
+    .star{
+        padding-left: 20px;
+    }
+
+}
+@media screen and (max-width: 580px){
+    .banner_wrap{
+        margin: 0 15px 10px;
+    }
+    .sunset .sub_container {
+        margin-right: 10px;
+    }
+    .monstera{
+        padding-left: 20px;
+        justify-content: left;
+    }
+    .clients{
+        flex-direction: column;
+        align-items: center;
+    }
+    .clients a{
+        margin-top: 20px;
+    }
+    .pclients div h5{
+        margin-bottom: 45px;
+    }
+    .star{
+        padding-left: 20px;
+    }
 }
 @media screen and (max-width: 768px) {
     .navbar{
-        display: none;
+        display: block;
+    }
+    .li_flex{
+        margin-top: 7px;
+    }
+    .li_flex:last-of-type{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .clients{
+        margin: 0 10px 0;
+    }
+    .sunset{
+        justify-content: left;
+        padding-left: 20px;
+    }
+    .monstera{
+        justify-content: left;
+        padding-left: 20px;
+    }
+    .sunset .sub_container{
+        max-width: 500px;
+        margin-right: 68px;
+    }
+    .star{
+        justify-content: center;
+        align-items: center;
+    }
+    .star div{
+        max-width: 500px;
     }
 }
 @media screen and (max-width: 850px) {
     .li_flex{
         margin-left: 7px;
+        font-size: 9px;
+}
+    .banner_wrap{
+        margin: 0 10px 20px;
+    }
+    .sunset{
+        padding-left: 20px;
+    }
+    .monstera{
+        padding-left: 20px;
+        justify-content: left;
+    }
+    .clients{
+        margin: 0 10px 0 10px;
+    }
+    .clients a{
+        margin-top: 20px;
+    }
+    .pclients div h5{
+        margin-bottom: 45px;
+    }
+    .star{
+        padding-left: 20px;
+        justify-content: left;
+    }
+    .star div{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .clients{
+        margin: 0 10px 0;
+    }
+}
+@media screen and (max-width: 700px){
+    .clients{
+        flex-direction: column;
+        align-items: center;
     }
 }
