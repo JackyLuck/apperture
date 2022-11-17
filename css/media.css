@@ -38,8 +38,7 @@
         justify-content: left;
     }
     .clients{
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
     }
     .clients a{
         margin-top: 20px;
@@ -64,8 +63,7 @@
         justify-content: left;
     }
     .clients{
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
     }
     .clients a{
         margin-top: 20px;
@@ -150,7 +148,6 @@
 }
 @media screen and (max-width: 700px){
     .clients{
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
     }
 }
