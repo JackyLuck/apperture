@@ -353,6 +353,7 @@ header ul a{
     text-align: center;
 }
 .owl-nav .owl-prev:before{
+    font-weight: 900;
     font-family: "Font Awsome 6 Free";
     content: "\f053";
     display: inline-block;
