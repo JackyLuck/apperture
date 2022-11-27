@@ -363,3 +363,29 @@ header ul a{
     left: -17px;
     top: 15px;
 }
+.owl-nav .owl-next:before{
+    font-weight: 900;
+    font-family: "Font Awsome 6 Free";
+    content: "\f053";
+    display: inline-block;
+    font-size: 50px;
+    color: red;
+    position: absolute;
+    right: -17px;
+    top: 15px;
+    transform: rotate(180deg);
+}
+.owl-dots{
+    text-align: center;
+}
+.owl-dots .owl-dot span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background-color: red;
+    border-radius: 50%;
+}
+.owl-dots .owl-dot.active span{
+    background-color: blue;
+}
