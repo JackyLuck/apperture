@@ -352,16 +352,14 @@ header ul a{
 .owl-item{
     text-align: center;
 }
-.owl-carousel .owl-nav button.owl-prev{
-    position: absolute;
-    left: 0;
-    top: 30%;
-    background-color: red;
-    width: 20px;
-    height: 20px;
-}
-.owl-nav .owl-prev{
+.owl-nav .owl-prev:before{
     font-weight: 900px;
     font-family: "Font Awsome 6 Free";
     content: "\f053";
+    display: inline-block;
+    font-size: 50px;
+    color: red;
+    position: absolute;
+    left: -17;
+    top: 15px;
 }
