@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'poppinsregular';
-    src: url('..fonts/poppins-regular-webfont.eot');
-    src: url('..fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/..fonts/poppins-regular-webfont.woff2') format('woff2'),
-    url('..fonts/poppins-regular-webfont.woff') format('woff'),
-    url('..fonts/poppins-regular-webfont.ttf') format('truetype'),
-    url('..fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    src: url('../fonts/poppins-regular-webfont.eot');
+    src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-regular-webfont.woff') format('woff'),
+    url('../fonts/poppins-regular-webfont.ttf') format('truetype'),
+    url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -353,13 +353,12 @@ header ul a{
     text-align: center;
 }
 .owl-nav .owl-prev:before{
-    font-weight: 900px;
     font-family: "Font Awsome 6 Free";
     content: "\f053";
     display: inline-block;
     font-size: 50px;
     color: red;
     position: absolute;
-    left: -17;
+    left: -17px;
     top: 15px;
 }
