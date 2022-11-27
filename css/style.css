@@ -249,7 +249,11 @@ header ul a{
     display: flex;
     margin: auto;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1160px;
+}
+.clients a{
+    max-width: 128px;
+    display: inline-block;
 }
 .star{
     background-image: url("../images/star.jpg");
@@ -337,4 +341,27 @@ header ul a{
     border-radius: 15px;
     margin-right: 6px;
 }
-
+.container{
+    max-width: 1168px;
+    margin: auto;
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
+.owl-item{
+    text-align: center;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+.owl-nav .owl-prev{
+    font-weight: 900px;
+    font-family: "Font Awsome 6 Free";
+    content: "\f053";
+}
