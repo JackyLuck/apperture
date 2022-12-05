@@ -196,5 +196,27 @@
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+    .owl-nav .owl-prev:before{
+        font-weight: 900;
+        font-family: "Font Awesome 6 Free";
+        content: "\f053";
+        display: inline-block;
+        font-size: 50px;
+        color: red;
+        position: absolute;
+        left: 140px;
+        top: 15px;
+    }
+    .owl-nav .owl-next:before{
+        font-weight: 900;
+        font-family: "Font Awesome 6 Free";
+        content: "\f053";
+        display: inline-block;
+        font-size: 50px;
+        color: red;
+        position: absolute;
+        right: 140px;
+        top: 15px;
+    }
 
 }
