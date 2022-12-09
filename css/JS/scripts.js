@@ -12,7 +12,7 @@ $(document).ready(function(){
             },
 
             768:{
-                items:5
+                items:3
             }
         }
     });
